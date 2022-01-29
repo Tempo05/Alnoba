@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "alnoba_1_17_1:blocks/iron_furnace_topside",
+    "up": "alnoba_1_17_1:blocks/iron_furnace_topside",
+    "north": "alnoba_1_17_1:blocks/iron_furnace_frontal",
+    "east": "alnoba_1_17_1:blocks/iron_furnace_sides",
+    "south": "alnoba_1_17_1:blocks/iron_furnace_sides",
+    "west": "alnoba_1_17_1:blocks/iron_furnace_sides",
+    "particle": "alnoba_1_17_1:blocks/iron_furnace_topside"
+  }
+}

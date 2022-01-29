@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alnoba_1_17_1:items/nine_mm_ammo"
+  }
+}

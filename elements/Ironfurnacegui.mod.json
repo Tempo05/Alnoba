@@ -1,0 +1,126 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 186,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 186,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 240,
+          "y": 70
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Iron Furnace",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Iron Furnace",
+          "x": 129,
+          "y": 40
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fire_empy.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progressfire1"
+          },
+          "name": "fire_empy.png",
+          "x": 187,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuego_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progressfire2"
+          },
+          "name": "fuego_1.png",
+          "x": 187,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuego_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progressfire3"
+          },
+          "name": "fuego_2.png",
+          "x": 187,
+          "y": 71
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fuego_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Progressfire4"
+          },
+          "name": "fuego_3.png",
+          "x": 187,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

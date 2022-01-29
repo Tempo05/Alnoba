@@ -1,0 +1,11 @@
+{
+  "glock_shoot": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "alnoba_1_17_1:008842289_prev",
+        "stream": false
+      }
+    ]
+  }
+}

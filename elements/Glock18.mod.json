@@ -1,0 +1,39 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "glock",
+    "customModelName": "Normal",
+    "name": "Glock-18",
+    "specialInfo": [
+      "Pium-Pium(Pd:uses 9mm ammo)"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:Alnoba"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:NineMMAmmo"
+    },
+    "shootConstantly": false,
+    "usageCount": 0,
+    "actionSound": {
+      "value": "CUSTOM:glock_shoot"
+    },
+    "hasGlow": false,
+    "animation": "none",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 1.75,
+    "bulletKnockback": 0,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:NineMMAmmo"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

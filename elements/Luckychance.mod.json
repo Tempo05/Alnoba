@@ -1,0 +1,51 @@
+{
+  "_fv": 24,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Lucky Chance",
+    "type": "BREAKABLE",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 5,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "EFFICIENCY"
+      },
+      {
+        "value": "UNBREAKING"
+      },
+      {
+        "value": "MENDING"
+      },
+      {
+        "value": "SOUL_SPEED"
+      }
+    ],
+    "compatibleItems": [
+      {
+        "value": "Items.WOODEN_PICKAXE"
+      },
+      {
+        "value": "Items.STONE_PICKAXE"
+      },
+      {
+        "value": "Items.IRON_PICKAXE"
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "Items.DIAMOND_PICKAXE"
+      },
+      {
+        "value": "Items.NETHERITE_PICKAXE"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}

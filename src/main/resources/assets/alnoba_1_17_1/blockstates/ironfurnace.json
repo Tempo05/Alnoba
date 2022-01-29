@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "alnoba_1_17_1:block/ironfurnace"
+    },
+    "facing=east": {
+      "model": "alnoba_1_17_1:block/ironfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "alnoba_1_17_1:block/ironfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "alnoba_1_17_1:block/ironfurnace",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "alnoba_1_17_1:block/ironfurnace",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "alnoba_1_17_1:block/ironfurnace",
+      "x": 90
+    }
+  }
+}

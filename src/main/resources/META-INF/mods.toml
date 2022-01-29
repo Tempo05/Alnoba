@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="alnoba_1_17_1"
+version="1.0.0"
+displayName="Alnoba"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="USUARIO, MCreator"
+
+[[dependencies.alnoba_1_17_1]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

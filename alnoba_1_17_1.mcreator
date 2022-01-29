@@ -1,0 +1,429 @@
+{
+  "mod_elements": [
+    {
+      "name": "Luckychance",
+      "type": "enchantment",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luckychance",
+      "path": "~/Enchanment"
+    },
+    {
+      "name": "Alnobalogo",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alnobalogo",
+      "path": "~/AlnobaPriors"
+    },
+    {
+      "name": "Alnoba",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alnoba",
+      "path": "~/AlnobaPriors"
+    },
+    {
+      "name": "Ironfurnacegui",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironfurnacegui",
+      "path": "~/Blocks"
+    },
+    {
+      "name": "IronfurnaceUpdateTick",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironfurnace_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Progressfire1",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progressfire_1",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General_mecanics"
+    },
+    {
+      "name": "Progressfire2",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progressfire_2",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General_mecanics"
+    },
+    {
+      "name": "Progressfire3",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progressfire_3",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General_mecanics"
+    },
+    {
+      "name": "Progressfire4",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progressfire_4",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/General_mecanics"
+    },
+    {
+      "name": "Ironfurnace",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironfurnace"
+    },
+    {
+      "name": "Prueba",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prueba",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "Prueba2",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prueba_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "NineMMAmmo",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nine_mm_ammo",
+      "path": "~/Items/Ranged_weapons"
+    },
+    {
+      "name": "Glock18",
+      "type": "rangeditem",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glock_18",
+      "path": "~/Items/Ranged_weapons"
+    },
+    {
+      "name": "Ninemmamorecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninemmamorecipe",
+      "path": "~/recipes"
+    },
+    {
+      "name": "Ironfurnacerecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironfurnacerecipe",
+      "path": "~/recipes"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "glock_shoot",
+      "files": [
+        "008842289_prev"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabalnoba": "Alnoba",
+      "item.alnoba_1_17_1.nine_mm_ammo": "9mm Ammo",
+      "block.alnoba_1_17_1.ironfurnace": "Ironfurnace",
+      "subtitles.glock_shoot": "",
+      "enchantment.alnoba_1_17_1.luckychance": "Lucky Chance",
+      "item.alnoba_1_17_1.alnobalogo": "Alnobalogo",
+      "item.alnoba_1_17_1.glock_18": "Glock-18"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "AlnobaPriors",
+        "children": []
+      },
+      {
+        "name": "Blocks",
+        "children": []
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Armours",
+            "children": []
+          },
+          {
+            "name": "Herramientas",
+            "children": []
+          },
+          {
+            "name": "Weapons",
+            "children": []
+          },
+          {
+            "name": "Ranged_weapons",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          },
+          {
+            "name": "Others",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mecanics_functions",
+        "children": []
+      },
+      {
+        "name": "Magic_funtions",
+        "children": []
+      },
+      {
+        "name": "Word_generations",
+        "children": []
+      },
+      {
+        "name": "Potions",
+        "children": []
+      },
+      {
+        "name": "Enchanment",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "General_mecanics",
+        "children": []
+      },
+      {
+        "name": "Loots",
+        "children": []
+      },
+      {
+        "name": "others",
+        "children": []
+      },
+      {
+        "name": "GUIS",
+        "children": []
+      },
+      {
+        "name": "recipes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alnoba_1_17_1",
+    "modName": "Alnoba",
+    "version": "1.0.0",
+    "author": "USUARIO, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.alnoba",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}
